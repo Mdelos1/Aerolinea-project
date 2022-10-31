@@ -1,0 +1,91 @@
+/* Aqui empieza el código de SeleccionAsientosSalida */
+
+.SeleccionAsientosSalida{
+  width: 100%;
+  height: 140vh;
+  padding: .8rem;
+  position: relative;
+
+}
+.AsientosSalida{
+  background-color: rgb(236, 235, 239);
+  width: 45%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  align-items: center;
+  position: relative;
+  padding: .5rem;
+}
+.AsientosSalida>p{
+  padding: 1rem 0;
+}
+#asientosLetras{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* height: 3rem; */
+  /* background-color: aqua; */
+}
+.botonesLetras{
+  width: 2.7rem;
+  height: 2.7rem;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid #2f1cde;
+  background-color: #f9f5fe;
+}
+.asientosBotones{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.botonesSalidaRapida{
+  width: 40%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px;
+
+}
+.salidaRapida{
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 5px;
+  border: 1px solid rgb(47, 28, 222);
+}
+
+.botones___container{
+  width: 20%;
+  height: 91%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  gap: 4px;
+}
+.botones___container--number{
+  width: 2.9rem;
+  height: 2.7rem;
+  border-radius: 5px;
+  border: 2px solid #2f1cde;
+}
+#noDisponible{
+  background-color: rgb(114, 46, 232);
+  border: none;
+}
+/* Aqui empieza el código de SeleccionAsientosRegreso */
+.SeleccionAsientosRegreso{
+  width: 100%;
+  height: 140vh;
+  padding: .8rem;
+  position: relative;
+  z-index: 1;
+} 
+.noDisponible{
+  background-color: #2f1cde;
+}

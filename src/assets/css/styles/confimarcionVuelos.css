@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+
+.confirmacion_vuelos{
+    padding: 4rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(249, 239, 247);
+    font-family: 'Roboto Serif', serif;
+}
+
+.configuracionVuelos_container{
+    width: 70%;
+    position: relative;
+}
+
+.title_vuelo{
+    display: flex;
+    flex-direction: row;
+    gap: 29rem;
+    line-height: 10px;
+    margin-bottom: 40px;
+}
+
+.btn_cambiarVuelo{
+    width: 10rem;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid rgb(160, 100, 160);
+    color: rgb(160, 100, 160);
+    position: absolute;
+    z-index: 20;
+    top: 1rem;
+    right: 2rem;
+}
+#btn__abajo2{
+    position: absolute;
+    top:55rem;
+}
+#btn__abajo1{
+    position: absolute;
+    top: 50%;
+}
+.title_datos{
+    margin-bottom: 20px;
+}
+.info_vuelo{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    gap: 3rem;
+    width: 100%;
+    height: 8rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(160, 100, 160, 0.194);
+}
+.maleta1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(160, 100, 160, 0.378);
+    height: 60%;
+    width: 14%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.maleta1:hover{
+    color: white;
+    background-color: rgb(167, 137, 194);
+}
+.maleta2:hover{
+    color: white;
+    background-color: rgb(167, 137, 194);
+}
+.maleta3:hover{
+    color: white;
+    background-color: rgb(167, 137, 194);
+}
+.maleta2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(160, 100, 160, 0.378);
+    height: 60%;
+    width: 14%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.maleta3{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(160, 100, 160, 0.378);
+    height: 60%;
+    width: 14%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.info__reservacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    /* line-height: 1.5rem; */
+    /* background-color: aqua;   */
+
+}
+.info__reservacion--container1{
+    width: 100%;
+    /* height: 100%; */
+    position: relative;
+    z-index: 1;
+}
+.info__reservacion--container1 .info__div{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    border-radius: 15px;
+}
+.info__reservacion--container1 > p{
+    font-size: 22px;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    
+}
+.info__pasajeros{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 8px;
+    font-size: 12px;
+    position: relative;
+    z-index: 10;
+}
+.info__date{
+    /* background-color: aqua; */
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding-top: 1rem;
+    padding-left: .5rem;
+}
+.info__div--date .p{
+    background-color:  rgba(167, 137, 194, 0.661);
+    padding-left: 12px;
+    width: 14.3rem;
+}
+.info__div--date{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}
+.info__div--date .info__div--text {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;   
+    /* background-color: rgb(158, 158, 246); */
+    gap: 7px;
+}
+
+.info__salida{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* ga */
+}
+.info__salida p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.info__hora{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+
+} 
+.fecha__text{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.title_fechasVuelo{
+    font-size: 1.3rem;
+    margin-bottom: 1px;
+    font-weight: 1px bolder;
+}
+.title_paisVuelo{
+    margin-bottom: 20px;
+    color: rgb(116, 116, 116);
+}
+.title_horariosVuelo{
+    font-weight: bolder;
+}
+.number_vuelo{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.title_costoVuelo{
+    margin-top: 25px;
+    font-size: 22px;
+}
+.card_costoVuelo{
+    width: 18vw;
+    height: 30vh;
+    margin-top: 10px;
+    padding-left: 15px;
+    background-color: white;
+    line-height: 3rem;
+    border-radius: 15px;
+}
+.tarifa_base{
+    display: flex;
+    gap: 5rem;
+    padding-top: 1.5rem;
+    font-size: 13px;
+}
+.costo_equipaje{
+    display: flex;
+    gap: 2.7rem;
+    font-size: 13px;
+}
+.costo_total{
+    display: flex;
+    gap: 7.5rem;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.btn_seleccionarAsientos{
+    width: 18vw;
+    height: 7vh;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(167, 137, 194);
+    font-weight: bolder;
+    cursor: pointer;
+}
+.btn-success{
+    width: fit-content;
+    height: 2.3rem;
+    padding: 2px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

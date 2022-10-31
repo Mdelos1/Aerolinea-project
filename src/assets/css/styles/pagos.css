@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
+
+.Pagos{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  font-family: 'Roboto Serif', serif;
+}
+.title_pagos{
+  padding-left: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
+.metodos_pago{
+  width: 85%;
+  height: 25vh;
+  gap: 12rem;
+  display: flex;
+  margin-left: 7rem;
+  border: 3px solid rgb(206, 204, 204);
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  
+}
+.info_tarjetasCredito{
+  width: 32vw;
+  height: 21vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 22px;
+  margin-left: 50px;
+  
+}
+.info_sucursal{
+  width: 32vw;
+  height: 21vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 22px;
+}
+.info_tarjetasCredito p{
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+.info_tarjetasCredito img{
+  width: 25vw;
+  margin-left: 1.5rem;
+}
+.info_sucursal p{
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+.info_sucursal img{
+  width: 25vw;
+  margin-left: 1.5rem;
+}
+.title_servicios{
+  padding-left: 8rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
+.info_servicios{
+  display: flex;
+  flex-direction: row;
+  margin-left: 8rem;
+  gap: 4rem;
+}
+.info_servicios img{
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  width: 5vw;
+  border-radius: 50px;
+}
+.title_cardServicio{
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
+.txt_cardServicio{
+  display: flex;
+  padding-left: 15px;
+  width: 80%;
+  height: 8vh;
+  font-size: 12px;
+}
+
+.info_transporte{
+  width: 13vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(206, 204, 204);
+  border-radius: 15px;
+  
+}
+
+
+
+.info_vuelos{
+  width: 13vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(206, 204, 204);
+  border-radius: 15px;
+  
+}
+.info_grupos{
+  width: 13vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(206, 204, 204);
+  border-radius: 15px;
+}
+.info_hoteles{
+  width: 13vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(206, 204, 204);
+  border-radius: 15px;
+  
+}
+.info_carga{
+  width: 13vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(206, 204, 204);
+  border-radius: 15px;
+  
+}
+@media (max-width: 700px){
+  .metodos_pago{
+    display: flex;
+    width: 65%;
+    gap: 0;
+    height: 250px;
+    flex-direction: column;
+  }
+  .info_tarjetasCredito{
+    width: 80%;
+    margin-left: 60px;
+  }
+#tarjetasCredito{
+    width: 250px;
+  }
+  .info_sucursal{
+    width: 80%;
+    margin-left: 60px;
+  }
+  #PagosSucursal
+{
+  width: 250px;
+}
+.info_servicios{
+  display: flex;
+  flex-direction: column;
+}
+.title_servicios{
+  margin-left: 60px;
+}
+.info_transporte{
+  width: 50%;
+  margin-left: 80px;
+}
+.info_vuelos{
+  width: 50%;
+  margin-left: 80px;
+}
+.info_grupos{
+  width: 50%;
+  margin-left: 80px;
+}
+.info_hoteles{
+  width: 50%;
+  margin-left: 80px;
+}
+.info_carga{
+  width: 50%;
+  margin-left: 80px;
+}
+
+}

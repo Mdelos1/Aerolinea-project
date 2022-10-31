@@ -1,0 +1,108 @@
+.finalizarCompra{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e3e0f0;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.finalizarCompra__container{
+  border: 1px solid rgb(0, 0, 0);
+  width: 50%;
+  height: 95vh;
+  padding: 1rem 3rem 4rem 3rem;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(147, 146, 146);
+  overflow-y: auto;
+  position: relative;
+}
+.finalizarCompra__container::-webkit-scrollbar{
+  width: 2px;
+  background-color: #e3e0f0;
+}
+.finalizarCompra__container::-webkit-scrollbar-thumb{
+  width: 100%;
+  background-color: rgb(115, 45, 237);
+}
+
+.finalizarCompra__card {
+  width: 100%;
+  height: 12.3rem;
+  background-color: rgb(228, 218, 253);
+  border-radius: 10px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #bb72ff;
+
+}
+
+.infoReserva {
+  width: 100%;
+  height: 3rem;
+  background-color: #3ef277;
+  border-radius: 10px 10px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  font-size: 18px;
+}
+.nombre{
+  width: 100%;
+  height: 3rem;
+  background-color: #6521ee93;
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem 0 5rem;
+}
+.nombre b{
+  color: #bbeeff;
+  font-size: 17px;
+}
+.paisOrigen{
+  width: 100%;
+  height: 3rem;
+  background-color: #6521ee93;
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem 0 5rem;
+}
+.paisDestino{
+  width: 100%;
+  height: 3rem;
+  background-color: #6521ee93;
+  color: #fff;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem 0 5rem;
+  border-radius: 0 0 10px 10px;
+}
+.btn__finalizarCompra{
+  position: relative;
+  left: 45%;
+  top: 1.5rem;
+  width: fit-content;
+  padding: 0 12px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: #3ef277;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+.btn__finalizarCompra:hover{
+  background-color: #adf0c2;
+}

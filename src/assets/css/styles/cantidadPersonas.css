@@ -1,0 +1,80 @@
+.cantidadPersonas{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  padding: 0%;
+  margin: 0%;
+  background-color: rgba(0, 0, 0, 0.37);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+.catidadPersonas__card{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 15px;
+  background-color: #f6f8fa;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  position: relative;
+}
+.catidadPersonas__card--content{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.content__acount{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.content__acount>p,button{
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .4s;
+  font-size: 20px;
+  /* border: ; */
+  outline: none;
+}
+.content__acount> button:hover{
+  outline: none;
+  border: none;
+  background-color: #836dd7;
+  cursor: pointer;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+.selection div{
+  width: 90%;
+  height: 1.2rem;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.catidadPersonas__btn{
+  width: 100%;
+  background-color: #836dd7;
+  padding: 5px;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  color: #f6f8fa;
+  border-radius: 10px;
+}
+.catidadPersonas__btn:hover{
+  cursor: pointer;
+  background-color: #9c87ea;
+}
